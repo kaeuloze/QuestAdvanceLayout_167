@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.sp
 fun ActivitasPertama(modifier: Modifier) {
     Column(
         modifier = Modifier
-            .padding (top = 100.dp)
+            .padding(top = 100.dp)
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -33,6 +33,8 @@ fun ActivitasPertama(modifier: Modifier) {
             text = stringResource(id = R.string.univ),
             fontSize = 22.sp
         )
-    }
+        Spacer(modifier = Modifier.height(height = 25.dp))
 
     }
+
+}
