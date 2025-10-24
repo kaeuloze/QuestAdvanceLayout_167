@@ -17,5 +17,4 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 fun ActivitasPertama(modifier: Modifier) {
-
 }
