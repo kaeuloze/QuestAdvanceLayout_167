@@ -61,8 +61,16 @@ fun UIKedua(modifier: Modifier = Modifier) {
                         modifier = Modifier.size(36.dp)
                     )
                 }
-
             }
         }
+
+        // Nama dan username
+        Text(
+            text = "Mariska Esa Purnomo",
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black
+        )
+
     }
 }
