@@ -53,7 +53,16 @@ fun UIKedua(modifier: Modifier = Modifier) {
                 R.drawable.ic_twitter,
                 R.drawable.ic_linkedin
             )
-        }
-        }
+            icons.forEach { icon ->
+                IconButton(onClick = { }) {
+                    Image(
+                        painter = painterResource(id = icon),
+                        contentDescription = null,
+                        modifier = Modifier.size(36.dp)
+                    )
+                }
 
+            }
+        }
+    }
 }
