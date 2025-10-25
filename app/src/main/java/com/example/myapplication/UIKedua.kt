@@ -46,9 +46,14 @@ fun UIKedua(modifier: Modifier = Modifier) {
         Row(
             horizontalArrangement = Arrangement.spacedBy(12.dp),
             verticalAlignment = Alignment.CenterVertically
-        ) {}
-
-
+        ) {
+            val icons = listOf(
+                R.drawable.ic_facebook,
+                R.drawable.ic_google,
+                R.drawable.ic_twitter,
+                R.drawable.ic_linkedin
+            )
+        }
         }
 
 }
