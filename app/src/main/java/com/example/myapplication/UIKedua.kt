@@ -119,6 +119,14 @@ fun UIKedua(modifier: Modifier = Modifier) {
 
                         Spacer(modifier = Modifier.width(16.dp))
 
+                        Text(
+                            text = title,
+                            fontSize = 18.sp,
+                            color = Color.White,
+                            fontWeight = FontWeight.Medium
+                        )
+
+
                     }
 
                 }
