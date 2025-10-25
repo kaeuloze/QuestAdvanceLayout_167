@@ -31,7 +31,14 @@ fun UIKedua(modifier: Modifier = Modifier) {
     ) {
         // Foto profil bundar
         val foto = painterResource(id = R.drawable.profil)
-
+        Image(
+            painter = foto,
+            contentDescription = "Foto Profil",
+            modifier = Modifier
+                .size(160.dp)
+                .clip(CircleShape),
+            contentScale = ContentScale.Crop
+        )
 
     }
 
