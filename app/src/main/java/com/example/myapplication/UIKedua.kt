@@ -105,10 +105,24 @@ fun UIKedua(modifier: Modifier = Modifier) {
                     .clickable { /* aksi klik di sini */ }
                     .padding(horizontal = 20.dp, vertical = 18.dp)
             ) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Image(
+                            painter = painterResource(id = icon),
+                            contentDescription = null,
+                            modifier = Modifier.size(28.dp)
+                        )
 
+                        Spacer(modifier = Modifier.width(16.dp))
+
+                    }
+
+                }
             }
-
-
         }
     }
 }
