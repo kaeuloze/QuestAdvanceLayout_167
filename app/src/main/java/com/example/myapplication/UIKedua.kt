@@ -28,6 +28,11 @@ fun UIKedua(modifier: Modifier = Modifier) {
             .fillMaxSize()
             .padding(top = 60.dp, start = 24.dp, end = 24.dp),
         horizontalAlignment = Alignment.CenterHorizontally
-    ) {}
+    ) {
+        // Foto profil bundar
+        val foto = painterResource(id = R.drawable.profil)
+
+
+    }
 
 }
