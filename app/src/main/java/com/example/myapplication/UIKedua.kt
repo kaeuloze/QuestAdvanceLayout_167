@@ -77,7 +77,15 @@ fun UIKedua(modifier: Modifier = Modifier) {
             color = Color.Black
         )
 
-        Spacer(modifier = Modifier.height(10.dp)) //
+        Spacer(modifier = Modifier.height(10.dp))
+        Text(
+            text = "Saya seorang Mahasiswi Universitas Muhammadiyah Yogyakarta",
+            fontSize = 15.sp,
+            color = Color.Black,
+            lineHeight = 20.sp,
+            textAlign = TextAlign.Center,
+            modifier = Modifier.fillMaxWidth()
+        )
 
     }
 }
