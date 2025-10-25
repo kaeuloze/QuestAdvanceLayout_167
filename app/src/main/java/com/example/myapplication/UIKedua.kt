@@ -94,6 +94,21 @@ fun UIKedua(modifier: Modifier = Modifier) {
             Pair("Riwayat Transaksi", R.drawable.ic_history),
             Pair("Pengaturan", R.drawable.ic_setting)
         )
+        menuList.forEach { (title, icon) ->
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .background(
+                        color = Color(0xFF2E2E2E),
+                        shape = RoundedCornerShape(20.dp)
+                    )
+                    .clickable { /* aksi klik di sini */ }
+                    .padding(horizontal = 20.dp, vertical = 18.dp)
+            ) {
 
+            }
+
+
+        }
     }
 }
