@@ -125,7 +125,12 @@ fun UIKedua(modifier: Modifier = Modifier) {
                             color = Color.White,
                             fontWeight = FontWeight.Medium
                         )
-
+                        Image(
+                            painter = painterResource(id = R.drawable.ic_next), // Gambar panah
+                            contentDescription = "Next", // Deskripsi panah
+                            modifier = Modifier.size(22.dp), // Ukuran panah 22dp
+                            colorFilter = ColorFilter.tint(Color.Gray) // Warna panah abu-abu
+                        )
 
                     }
 
