@@ -87,5 +87,8 @@ fun UIKedua(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxWidth()
         )
 
+        Spacer(modifier = Modifier.height(35.dp))
+
+
     }
 }
