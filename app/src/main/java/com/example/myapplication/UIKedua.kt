@@ -40,6 +40,9 @@ fun UIKedua(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop
         )
 
+        Spacer(modifier = Modifier.height(25.dp))
+
+
     }
 
 }
