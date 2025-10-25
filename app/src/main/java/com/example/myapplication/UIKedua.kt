@@ -71,6 +71,11 @@ fun UIKedua(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold,
             color = Color.Black
         )
+        Text(
+            text = "@mariskaae_",
+            fontSize = 15.sp,
+            color = Color.Black
+        )
 
     }
 }
