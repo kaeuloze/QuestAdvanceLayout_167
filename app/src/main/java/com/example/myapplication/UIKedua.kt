@@ -131,11 +131,22 @@ fun UIKedua(modifier: Modifier = Modifier) {
                             modifier = Modifier.size(22.dp), // Ukuran panah 22dp
                             colorFilter = ColorFilter.tint(Color.Gray) // Warna panah abu-abu
                         )
-
                     }
-
                 }
+
+                Spacer(modifier = Modifier.height(12.dp))
             }
+
+            Spacer(modifier = Modifier.height(50.dp))
+
+            // Footer
+            Text(
+                text = "© 2025 Mariska Esa Purnomo",
+                fontSize = 12.sp,
+                color = Color.Gray,
+                modifier = Modifier.align(Alignment.CenterHorizontally)
+            )
+
         }
     }
 }
