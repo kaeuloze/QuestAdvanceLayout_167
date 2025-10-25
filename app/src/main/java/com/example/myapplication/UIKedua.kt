@@ -77,5 +77,7 @@ fun UIKedua(modifier: Modifier = Modifier) {
             color = Color.Black
         )
 
+        Spacer(modifier = Modifier.height(10.dp)) //
+
     }
 }
