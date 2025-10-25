@@ -42,7 +42,13 @@ fun UIKedua(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(25.dp))
 
+        // Baris ikon sosial media
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {}
 
-    }
+
+        }
 
 }
