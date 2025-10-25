@@ -23,5 +23,11 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun UIKedua(modifier: Modifier = Modifier) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(top = 60.dp, start = 24.dp, end = 24.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {}
 
 }
