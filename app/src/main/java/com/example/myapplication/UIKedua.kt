@@ -89,6 +89,11 @@ fun UIKedua(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(35.dp))
 
+        val menuList = listOf(
+            Pair("Privacy", R.drawable.ic_privacy),
+            Pair("Riwayat Transaksi", R.drawable.ic_history),
+            Pair("Pengaturan", R.drawable.ic_setting)
+        )
 
     }
 }
